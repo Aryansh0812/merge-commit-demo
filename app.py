@@ -9,3 +9,6 @@ class Calculator:
    def multiply(self):
        return self.a * self.b
 
+   def substract(self):
+      return self.a-self.b
+
