@@ -9,3 +9,9 @@ class Calculator:
    def multiply(self):
        return self.a * self.b
 
+   def substract(self):
+      return self.a-self.b
+
+test_obj = Calculaor(10,20)
+s = test_obj.add()
+print(s)
